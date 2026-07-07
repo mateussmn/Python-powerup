@@ -11,7 +11,7 @@ link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 
 pyautogui.write(link)
 pyautogui.press("enter")
-time.sleep(10) #Pausa para carregar o site
+time.sleep(4) #Pausa para carregar o site
 pyautogui.click(x=613, y=556)
 pyautogui.write("xdd")
 pyautogui.press("tab")
